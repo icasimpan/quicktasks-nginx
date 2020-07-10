@@ -5,6 +5,7 @@ tags: [apache, webserver, ip, whitelisting]
 draft: false
 ---
 
+```
 ...
 ...
            AuthType Basic
@@ -21,5 +22,6 @@ draft: false
            </RequireAny>
 ...
 ...
+```
 See https://stackoverflow.com/questions/10419592/htaccess-htpasswd-bypass-if-at-a-certain-ip-address
 
