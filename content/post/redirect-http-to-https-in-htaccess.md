@@ -23,3 +23,5 @@ Use below if need to redirect non-www to www
   RewriteRule ^ http%{ENV:protossl}://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 ...
 ```
+
+Some more guide https://www.drupal.org/docs/7/modules/domain-access/htaccess-changes-optional
