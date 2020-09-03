@@ -20,7 +20,7 @@ RewriteCond %{HTTP_HOST} !bar\.example\.net [NC]  # exclude foo.example.net doma
 RewriteCond %{HTTP_HOST} .
 RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
-RewriteRule ^ http%{ENV:protossl}://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 ## 2. Redirect for http://www to https://www
 RewriteCond %{HTTP_HOST} !foo\.example\.com [NC]  # exclude foo.example.com domain
@@ -28,7 +28,7 @@ RewriteCond %{HTTP_HOST} !bar\.example\.net [NC]  # exclude foo.example.net doma
 RewriteCond %{HTTP_HOST} .
 RewriteCond %{HTTP_HOST} ^www\. [NC]
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
-RewriteRule ^ http%{ENV:protossl}://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 ## 3. Redirect all https to https://www except those https://www
 RewriteCond %{HTTP_HOST} !foo\.example\.com [NC]  # exclude foo.example.com domain
@@ -36,7 +36,7 @@ RewriteCond %{HTTP_HOST} !bar\.example\.net [NC]  # exclude foo.example.net doma
 RewriteCond %{HTTP_HOST} .
 RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteCond %{HTTP:X-Forwarded-Proto} https
-RewriteRule ^ http%{ENV:protossl}://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 ```
 
 See https://www.drupal.org/docs/7/modules/domain-access/htaccess-changes-optional for some other examples.
