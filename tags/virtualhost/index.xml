@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>virtualhost on Webserver | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-webserver/tags/virtualhost/</link>
+    <description>Recent content in virtualhost on Webserver | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jul 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-webserver/tags/virtualhost/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setup Default Virtualhost in Nginx</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/setup-default-virtualhost-in-nginx/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/setup-default-virtualhost-in-nginx/</guid>
+      <description>server { listen 80 default_server; server_name _; root /var/www/default; }  details in https://serverfault.com/questions/527156/setting-nginx-to-catch-all-unhandled-vhosts</description>
+    </item>
+    
+  </channel>
+</rss>

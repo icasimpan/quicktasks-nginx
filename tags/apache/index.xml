@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>apache on Webserver | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-webserver/tags/apache/</link>
+    <description>Recent content in apache on Webserver | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jul 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-webserver/tags/apache/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apache 2.4: IP Whitelisting</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/ip-whitelisting-apache2.4/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/ip-whitelisting-apache2.4/</guid>
+      <description>... ... AuthType Basic AuthName &amp;quot;Development Area&amp;quot; AuthUserFile /var/www/sites/.htpasswd &amp;lt;RequireAny&amp;gt; Require ip 19.233.95.152 Require ip 31.169.217.174 Require ip 33.202.255.41 Require ip 31.175.111.184 Require ip 51.209.11.159 Require ip 129.162.144.55 Require valid-user &amp;lt;/RequireAny&amp;gt; ... ...  See https://stackoverflow.com/questions/10419592/htaccess-htpasswd-bypass-if-at-a-certain-ip-address</description>
+    </item>
+    
+    <item>
+      <title>Apache Basic Auth</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/apache-basic-auth/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/apache-basic-auth/</guid>
+      <description>AuthType Basic AuthName &amp;quot;Development&amp;quot; AuthUserFile /var/www/sites/.htpasswd Require valid-user  </description>
+    </item>
+    
+    <item>
+      <title>Apache Basic Authentication in ProxyPass</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/apache-basic-authentication-proxypass/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/apache-basic-authentication-proxypass/</guid>
+      <description>&amp;lt;VirtualHost *:443&amp;gt; ServerName example.com SSLEngine on SSLCertificateFile /etc/httpd/conf.d/ssl/2017-example.com.crt SSLCertificateKeyFile /etc/httpd/conf.d/ssl/2017-example.com.key SSLCertificateChainFile /etc/httpd/conf.d/ssl/2017-example.com.bundle.crt ProxyPreserveHost On ProxyPass / http://127.0.0.1:8025/ ProxyPassReverse / http://127.0.0.1:8025/ &amp;lt;Location /&amp;gt; Options -Indexes AllowOverride All AuthType Basic AuthName &amp;quot;Development Area&amp;quot; AuthUserFile /var/www/sites/.htpasswd Require valid-user &amp;lt;/Location&amp;gt; &amp;lt;/VirtualHost&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>Apache HSTS</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/apache-hsts/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/apache-hsts/</guid>
+      <description>When a user visits your website, the above header will load first and the expiration time is 2 years (63072000 in seconds).
+# Optionally load the headers module: LoadModule headers_module modules/mod_headers.so &amp;lt;VirtualHost 67.89.123.45:443&amp;gt; Header always set Strict-Transport-Security “max-age=63072000; includeSubdomains;” &amp;lt;/VirtualHost&amp;gt; ... ... ... &amp;lt;VirtualHost *:80&amp;gt; […] ServerName example.com Redirect permanent / https://example.com/ &amp;lt;/VirtualHost&amp;gt;  More details in https://medium.com/@sslsecurity/how-to-enable-hsts-on-apache-nginx-and-lighttpd-8b0c64155911</description>
+    </item>
+    
+    <item>
+      <title>Apache Redirect for http to https via .htaccess</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/redirect-http-to-https-in-htaccess/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/redirect-http-to-https-in-htaccess/</guid>
+      <description>Generic way to do it but would result into duplicate URLs, e.g. https://example.com &amp;amp; https://www.example.com
+RewriteCond %{HTTPS} off RewriteCond %{HTTP:X-Forwarded-Proto} !https RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]  To avoid the duplicate URLs, do the following:
+## 1. Redirect all non-https except www to https://www RewriteCond %{HTTP_HOST} !foo\.example\.com [NC] # exclude foo.example.com domain RewriteCond %{HTTP_HOST} !bar\.example\.net [NC] # exclude foo.example.net domain RewriteCond %{HTTP_HOST} . RewriteCond %{HTTP_HOST} !^www\. [NC] RewriteCond %{HTTP:X-Forwarded-Proto} !https RewriteRule ^ https://www.</description>
+    </item>
+    
+    <item>
+      <title>Dump All Apache Modules Installed</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/dump-all-apache-modules-installed/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/dump-all-apache-modules-installed/</guid>
+      <description>httpd -t -D DUMP_MODULES  </description>
+    </item>
+    
+    <item>
+      <title>Logging Cloudflare Country Code in Apache Backend</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/logging-cloudflare-countrycode-apache-backend/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/logging-cloudflare-countrycode-apache-backend/</guid>
+      <description>... ... LogFormat &amp;quot;%h %l %u %t \&amp;quot;%r\&amp;quot; %&amp;gt;s %b \&amp;quot;%{Referer}i\&amp;quot; \&amp;quot;%{User-Agent}i\&amp;quot; %{cf-ipcountry}i&amp;quot; cloudflare_custom CustomLog /var/log/httpd/site.example.com-cloudflare_custom.log cloudflare_custom ... ...  See details in https://support.cloudflare.com/hc/en-us/articles/200168236-What-does-Cloudflare-IP-Geolocation-do-</description>
+    </item>
+    
+    <item>
+      <title>SSLPassPhraseDialog and How to Use It</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/sslpassphrasedialog-how-to-use/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/sslpassphrasedialog-how-to-use/</guid>
+      <description>See https://griffith.wordpress.com/tag/sslpassphrasedialog/</description>
+    </item>
+    
+  </channel>
+</rss>

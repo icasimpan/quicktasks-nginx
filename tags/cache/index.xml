@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cache on Webserver | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-webserver/tags/cache/</link>
+    <description>Recent content in cache on Webserver | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jul 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-webserver/tags/cache/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Clear Nginx Cache</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/clear-nginx-cache/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/clear-nginx-cache/</guid>
+      <description> bruteforce method - remove and replace /etc/nginx-cache Tool (untested) - https://github.com/perusio/nginx-cache-purge  </description>
+    </item>
+    
+  </channel>
+</rss>

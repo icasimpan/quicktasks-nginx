@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>centos7 on Webserver | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-webserver/tags/centos7/</link>
+    <description>Recent content in centos7 on Webserver | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jul 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-webserver/tags/centos7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quick Install Nginx in CentOS7 &#43; 301 Redirect</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/quick-install-nginx-in-centos7-301-redirect/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/quick-install-nginx-in-centos7-301-redirect/</guid>
+      <description>sudo yum install epel-release sudo yum install nginx sudo systemctl start nginx ... ... edit /etc/nginx/nginx.conf ... ... #add this line in bottom of &#39;server&#39; block: Redirect 301 https://your_domain_here/$request_uri; sudo systemctl restart nginx sudo systemctl enable nginx  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/.htaccess/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/apache/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/ip-whitelisting-apache2.4/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/apache-basic-auth/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/apache-basic-authentication-proxypass/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/apache-hsts/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/redirect-http-to-https-in-htaccess/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/auth/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/cache/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/centos7/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/clear-nginx-cache/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/cloudflare/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/comodo/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/comodo-ssl-verification-in-nginx/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/dump-all-apache-modules-installed/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/error/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/hsts/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/install/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/ip/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/logging/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/logging-cloudflare-countrycode-apache-backend/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/modules/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/nginx/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/nginx-502-bad-gateway/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/nginx-hsts/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/nginx-proxying-buffering/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/nginx-request-entity-too-large/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/ocsp-stapling-in-nginx/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/proxy/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/proxypass/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/quick-install-nginx-in-centos7-301-redirect/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/redirect/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/setup-default-virtualhost-in-nginx/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tweaks-improve-nginx/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/sslcert/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/sslpassphrasedialog-how-to-use/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/troubleshooting/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/tuning/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/verification/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/virtualhost/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/post/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/webserver/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/tags/whitelisting/</loc>
+    <lastmod>2020-07-10T00:20:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ismael.casimpan.com/quicktasks-webserver/</loc>
+    <lastmod>2017-06-26T18:27:58+01:00</lastmod>
+  </url>
+  
+</urlset>

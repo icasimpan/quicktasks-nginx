@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nginx on Webserver | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-webserver/tags/nginx/</link>
+    <description>Recent content in nginx on Webserver | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jul 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-webserver/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Clear Nginx Cache</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/clear-nginx-cache/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/clear-nginx-cache/</guid>
+      <description> bruteforce method - remove and replace /etc/nginx-cache Tool (untested) - https://github.com/perusio/nginx-cache-purge  </description>
+    </item>
+    
+    <item>
+      <title>Comodo SSL Verification in Nginx</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/comodo-ssl-verification-in-nginx/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/comodo-ssl-verification-in-nginx/</guid>
+      <description>Add the following to the vhost:
+location ^~ /.well-known/ { log_not_found off; }  </description>
+    </item>
+    
+    <item>
+      <title>Nginx 502 Bad Gateway</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/nginx-502-bad-gateway/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/nginx-502-bad-gateway/</guid>
+      <description> Check if php-fpm service is up Check if being listened to by nginx (for CentOS, look for &amp;ldquo;listen&amp;rdquo; in /etc/php-fpm.d/www.conf) Adjust nginx vhost (fastcgi_pass) when necessary (example below)  fastcgi_pass 127.0.0.1:9000;  </description>
+    </item>
+    
+    <item>
+      <title>Nginx HSTS</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/nginx-hsts/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/nginx-hsts/</guid>
+      <description>Update the following line of code in config file’s server Block.
+add_header Strict-Transport-Security “max-age=63072000; includeSubdomains; “;  Restart the NGINX server.
+More details in https://medium.com/@sslsecurity/how-to-enable-hsts-on-apache-nginx-and-lighttpd-8b0c64155911</description>
+    </item>
+    
+    <item>
+      <title>Nginx Proxying/Buffering</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/nginx-proxying-buffering/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/nginx-proxying-buffering/</guid>
+      <description>https://www.digitalocean.com/community/tutorials/understanding-nginx-http-proxying-load-balancing-buffering-and-caching</description>
+    </item>
+    
+    <item>
+      <title>Nginx: Request Entity Too Large</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/nginx-request-entity-too-large/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/nginx-request-entity-too-large/</guid>
+      <description>Solution: In server block, add &amp;ldquo;client_max_body_size&amp;rdquo; directive like the following
+server { listen 8080; client_max_body_size 100M; ... ... }  See details in https://www.cyberciti.biz/faq/linux-unix-bsd-nginx-413-request-entity-too-large/</description>
+    </item>
+    
+    <item>
+      <title>OCSP Stapling in Nginx</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/ocsp-stapling-in-nginx/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/ocsp-stapling-in-nginx/</guid>
+      <description>https://raymii.org/s/tutorials/OCSP_Stapling_on_nginx.html</description>
+    </item>
+    
+    <item>
+      <title>Quick Install Nginx in CentOS7 &#43; 301 Redirect</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/quick-install-nginx-in-centos7-301-redirect/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/quick-install-nginx-in-centos7-301-redirect/</guid>
+      <description>sudo yum install epel-release sudo yum install nginx sudo systemctl start nginx ... ... edit /etc/nginx/nginx.conf ... ... #add this line in bottom of &#39;server&#39; block: Redirect 301 https://your_domain_here/$request_uri; sudo systemctl restart nginx sudo systemctl enable nginx  </description>
+    </item>
+    
+    <item>
+      <title>Setup Default Virtualhost in Nginx</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/setup-default-virtualhost-in-nginx/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/setup-default-virtualhost-in-nginx/</guid>
+      <description>server { listen 80 default_server; server_name _; root /var/www/default; }  details in https://serverfault.com/questions/527156/setting-nginx-to-catch-all-unhandled-vhosts</description>
+    </item>
+    
+    <item>
+      <title>Some Tweaks to Improve Nginx</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/tweaks-improve-nginx/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/tweaks-improve-nginx/</guid>
+      <description>https://scaron.info/blog/improve-your-nginx-ssl-configuration.html</description>
+    </item>
+    
+  </channel>
+</rss>

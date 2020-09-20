@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sslcert on Webserver | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-webserver/tags/sslcert/</link>
+    <description>Recent content in sslcert on Webserver | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jul 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-webserver/tags/sslcert/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apache HSTS</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/apache-hsts/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/apache-hsts/</guid>
+      <description>When a user visits your website, the above header will load first and the expiration time is 2 years (63072000 in seconds).
+# Optionally load the headers module: LoadModule headers_module modules/mod_headers.so &amp;lt;VirtualHost 67.89.123.45:443&amp;gt; Header always set Strict-Transport-Security “max-age=63072000; includeSubdomains;” &amp;lt;/VirtualHost&amp;gt; ... ... ... &amp;lt;VirtualHost *:80&amp;gt; […] ServerName example.com Redirect permanent / https://example.com/ &amp;lt;/VirtualHost&amp;gt;  More details in https://medium.com/@sslsecurity/how-to-enable-hsts-on-apache-nginx-and-lighttpd-8b0c64155911</description>
+    </item>
+    
+    <item>
+      <title>Comodo SSL Verification in Nginx</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/comodo-ssl-verification-in-nginx/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/comodo-ssl-verification-in-nginx/</guid>
+      <description>Add the following to the vhost:
+location ^~ /.well-known/ { log_not_found off; }  </description>
+    </item>
+    
+    <item>
+      <title>Nginx HSTS</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/nginx-hsts/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/nginx-hsts/</guid>
+      <description>Update the following line of code in config file’s server Block.
+add_header Strict-Transport-Security “max-age=63072000; includeSubdomains; “;  Restart the NGINX server.
+More details in https://medium.com/@sslsecurity/how-to-enable-hsts-on-apache-nginx-and-lighttpd-8b0c64155911</description>
+    </item>
+    
+    <item>
+      <title>OCSP Stapling in Nginx</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/ocsp-stapling-in-nginx/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/ocsp-stapling-in-nginx/</guid>
+      <description>https://raymii.org/s/tutorials/OCSP_Stapling_on_nginx.html</description>
+    </item>
+    
+    <item>
+      <title>SSLPassPhraseDialog and How to Use It</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/sslpassphrasedialog-how-to-use/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/sslpassphrasedialog-how-to-use/</guid>
+      <description>See https://griffith.wordpress.com/tag/sslpassphrasedialog/</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>redirect on Webserver | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-webserver/tags/redirect/</link>
+    <description>Recent content in redirect on Webserver | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jul 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-webserver/tags/redirect/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apache Redirect for http to https via .htaccess</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/redirect-http-to-https-in-htaccess/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/redirect-http-to-https-in-htaccess/</guid>
+      <description>Generic way to do it but would result into duplicate URLs, e.g. https://example.com &amp;amp; https://www.example.com
+RewriteCond %{HTTPS} off RewriteCond %{HTTP:X-Forwarded-Proto} !https RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]  To avoid the duplicate URLs, do the following:
+## 1. Redirect all non-https except www to https://www RewriteCond %{HTTP_HOST} !foo\.example\.com [NC] # exclude foo.example.com domain RewriteCond %{HTTP_HOST} !bar\.example\.net [NC] # exclude foo.example.net domain RewriteCond %{HTTP_HOST} . RewriteCond %{HTTP_HOST} !^www\. [NC] RewriteCond %{HTTP:X-Forwarded-Proto} !https RewriteRule ^ https://www.</description>
+    </item>
+    
+    <item>
+      <title>Quick Install Nginx in CentOS7 &#43; 301 Redirect</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/quick-install-nginx-in-centos7-301-redirect/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/quick-install-nginx-in-centos7-301-redirect/</guid>
+      <description>sudo yum install epel-release sudo yum install nginx sudo systemctl start nginx ... ... edit /etc/nginx/nginx.conf ... ... #add this line in bottom of &#39;server&#39; block: Redirect 301 https://your_domain_here/$request_uri; sudo systemctl restart nginx sudo systemctl enable nginx  </description>
+    </item>
+    
+  </channel>
+</rss>

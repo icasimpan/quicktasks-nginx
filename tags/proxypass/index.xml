@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>proxypass on Webserver | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-webserver/tags/proxypass/</link>
+    <description>Recent content in proxypass on Webserver | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jul 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-webserver/tags/proxypass/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apache Basic Authentication in ProxyPass</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/apache-basic-authentication-proxypass/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/apache-basic-authentication-proxypass/</guid>
+      <description>&amp;lt;VirtualHost *:443&amp;gt; ServerName example.com SSLEngine on SSLCertificateFile /etc/httpd/conf.d/ssl/2017-example.com.crt SSLCertificateKeyFile /etc/httpd/conf.d/ssl/2017-example.com.key SSLCertificateChainFile /etc/httpd/conf.d/ssl/2017-example.com.bundle.crt ProxyPreserveHost On ProxyPass / http://127.0.0.1:8025/ ProxyPassReverse / http://127.0.0.1:8025/ &amp;lt;Location /&amp;gt; Options -Indexes AllowOverride All AuthType Basic AuthName &amp;quot;Development Area&amp;quot; AuthUserFile /var/www/sites/.htpasswd Require valid-user &amp;lt;/Location&amp;gt; &amp;lt;/VirtualHost&amp;gt;  </description>
+    </item>
+    
+  </channel>
+</rss>

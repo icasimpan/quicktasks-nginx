@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>whitelisting on Webserver | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-webserver/tags/whitelisting/</link>
+    <description>Recent content in whitelisting on Webserver | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jul 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-webserver/tags/whitelisting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apache 2.4: IP Whitelisting</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/ip-whitelisting-apache2.4/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/ip-whitelisting-apache2.4/</guid>
+      <description>... ... AuthType Basic AuthName &amp;quot;Development Area&amp;quot; AuthUserFile /var/www/sites/.htpasswd &amp;lt;RequireAny&amp;gt; Require ip 19.233.95.152 Require ip 31.169.217.174 Require ip 33.202.255.41 Require ip 31.175.111.184 Require ip 51.209.11.159 Require ip 129.162.144.55 Require valid-user &amp;lt;/RequireAny&amp;gt; ... ...  See https://stackoverflow.com/questions/10419592/htaccess-htpasswd-bypass-if-at-a-certain-ip-address</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>troubleshooting on Webserver | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-webserver/tags/troubleshooting/</link>
+    <description>Recent content in troubleshooting on Webserver | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jul 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-webserver/tags/troubleshooting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Clear Nginx Cache</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/clear-nginx-cache/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/clear-nginx-cache/</guid>
+      <description> bruteforce method - remove and replace /etc/nginx-cache Tool (untested) - https://github.com/perusio/nginx-cache-purge  </description>
+    </item>
+    
+    <item>
+      <title>Comodo SSL Verification in Nginx</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/comodo-ssl-verification-in-nginx/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/comodo-ssl-verification-in-nginx/</guid>
+      <description>Add the following to the vhost:
+location ^~ /.well-known/ { log_not_found off; }  </description>
+    </item>
+    
+    <item>
+      <title>Nginx 502 Bad Gateway</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/nginx-502-bad-gateway/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/nginx-502-bad-gateway/</guid>
+      <description> Check if php-fpm service is up Check if being listened to by nginx (for CentOS, look for &amp;ldquo;listen&amp;rdquo; in /etc/php-fpm.d/www.conf) Adjust nginx vhost (fastcgi_pass) when necessary (example below)  fastcgi_pass 127.0.0.1:9000;  </description>
+    </item>
+    
+    <item>
+      <title>Nginx: Request Entity Too Large</title>
+      <link>https://ismael.casimpan.com/quicktasks-webserver/nginx-request-entity-too-large/</link>
+      <pubDate>Fri, 10 Jul 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-webserver/nginx-request-entity-too-large/</guid>
+      <description>Solution: In server block, add &amp;ldquo;client_max_body_size&amp;rdquo; directive like the following
+server { listen 8080; client_max_body_size 100M; ... ... }  See details in https://www.cyberciti.biz/faq/linux-unix-bsd-nginx-413-request-entity-too-large/</description>
+    </item>
+    
+  </channel>
+</rss>
