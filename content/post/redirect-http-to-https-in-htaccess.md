@@ -23,12 +23,15 @@ RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 ## 2. Redirect for http://www to https://www
+## NOTE: HTTP_HOST already starts with "www" (e.g. www.example.com) so it's no longer
+## hardcoded in the RewriteRule. Otherwise, it would become www.www.example.com which 
+## is clearly wrong.
 RewriteCond %{HTTP_HOST} !foo\.example\.com [NC]  # exclude foo.example.com domain
 RewriteCond %{HTTP_HOST} !bar\.example\.net [NC]  # exclude foo.example.net domain
 RewriteCond %{HTTP_HOST} .
 RewriteCond %{HTTP_HOST} ^www\. [NC]
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
-RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 ## 3. Redirect all https to https://www except those https://www
 RewriteCond %{HTTP_HOST} !foo\.example\.com [NC]  # exclude foo.example.com domain
